@@ -1,0 +1,7 @@
+# Ignore .env files
+.env
+
+# Ignore SQL files
+ecommerce.sql
+
+node_modules/
