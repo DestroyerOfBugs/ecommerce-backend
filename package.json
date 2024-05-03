@@ -9,8 +9,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server",
-    "vercel-build": "hello world"
+    "dev": "nodemon server"
   },
   "author": "",
   "license": "ISC",
