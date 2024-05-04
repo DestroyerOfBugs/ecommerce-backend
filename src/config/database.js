@@ -34,13 +34,13 @@ const pool = mysql.createPool({
 // });
 
 // Perform database operations
-pool.query('SELECT * FROM produtos', (err, results, fields) => {
-    if (err) {
-        console.error('Error executing query:', err.stack);
-        return;
-    }
-    console.log('Query results:', results);
-});
+// pool.query('SELECT * FROM produtos', (err, results, fields) => {
+//     if (err) {
+//         console.error('Error executing query:', err.stack);
+//         return;
+//     }
+//     console.log('Query results:', results);
+// });
 
 //
-//module.exports = pool.promise();
+module.exports = pool.promise();
